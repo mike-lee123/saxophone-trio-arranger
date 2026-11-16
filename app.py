@@ -15,8 +15,8 @@ from trio.audio import Performance, load_bank, render_project, audio_bundle
 import os
 
 ROOT=Path(__file__).parent
-st.set_page_config(page_title="Saxophone Trio Arranger 1.6.2",page_icon="🎷",layout="wide")
-st.title("🎷 Saxophone Trio Arranger v1.6.2")
+st.set_page_config(page_title="Saxophone Trio Arranger 1.6.3",page_icon="🎷",layout="wide")
+st.title("🎷 Saxophone Trio Arranger v1.6.3")
 st.caption("Concert C → 三 Alto／組合 C：Soprano + Alto + Tenor · MusicXML · Concert MIDI · MuseScore PDF")
 if st.session_state.get("project") and st.session_state.project.review_policy=="editorial":
     st.info("目前為使用者授權的演出編訂模式：演奏路線已展開，不要求逐小節人工確認。")
@@ -136,8 +136,8 @@ if p.ensemble=="sat":
     p.lead_octave=st.selectbox("Soprano 主旋律八度",[1,0],index=0 if p.lead_octave==1 else 1,format_func=lambda v:"來源主旋律提高一個八度" if v else "保留來源主旋律實音八度",key=f"lead_octave_{revision}")
     st.caption("Soprano 高音主旋律 · Alto 中音和聲 · Tenor 低音支撐。Concert C → Soprano D、Alto A、Tenor D；Tenor 記譜提高大九度。來源低於 Soprano 音域時請明確選擇提高八度。")
     if p.edition_profile=="rongshu_60":
-        intro_options=["flowing","lyrical","source"]
-        p.intro_variation=st.selectbox("榕樹下前奏",intro_options,index=intro_options.index(p.intro_variation),format_func=lambda v:{"flowing":"流動漸強 · 自然接入主題（推薦）","lyrical":"柔和分解和弦與順階填充","source":"原譜前奏"}[v],key=f"intro_{revision}")
+        intro_options=["trio","flowing","lyrical","source"]
+        p.intro_variation=st.selectbox("榕樹下前奏",intro_options,index=intro_options.index(p.intro_variation),format_func=lambda v:{"trio":"三部豐富前奏 · Alto分解和弦＋Tenor低音（推薦）","flowing":"Soprano獨奏 · 流動漸強","lyrical":"Soprano獨奏 · 柔和分解和弦","source":"原譜前奏"}[v],key=f"intro_{revision}")
 a,b,c,d=st.columns([3,1,1,2])
 p.title=a.text_input("曲名",p.title,key=f"title_{revision}")
 p.meter=b.text_input("拍號",p.meter,key=f"meter_{revision}")

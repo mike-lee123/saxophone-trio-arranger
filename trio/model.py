@@ -48,7 +48,7 @@ class Project(BaseModel):
     ensemble: Literal["alto_trio", "sat"] = "alto_trio"
     sat_style: Literal["ballad", "classical", "soft_jazz"] = "ballad"
     lead_octave: Literal[0, 1] = 0
-    intro_variation: Literal["source", "lyrical", "flowing"] = "source"
+    intro_variation: Literal["source", "lyrical", "flowing", "trio"] = "source"
     source_notes: str = ""
     performance_order: List[int] = Field(default_factory=list)
     source_complete: bool = False

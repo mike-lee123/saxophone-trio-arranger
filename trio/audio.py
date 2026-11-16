@@ -173,11 +173,13 @@ def render_project(project,bank,settings=Performance(),preview=False):
     if project.ensemble=="sat":
         channel_banks=(load_instrument_bank('soprano'),bank,load_instrument_bank('tenor'))
     soft_intro=project.ensemble=='sat' and project.edition_profile=='rongshu_60' and project.intro_variation=='lyrical'
-    intro_transition=project.ensemble=='sat' and project.edition_profile=='rongshu_60' and project.intro_variation=='flowing'
+    intro_transition=project.ensemble=='sat' and project.edition_profile=='rongshu_60' and project.intro_variation in ('flowing','trio')
     files,report=render_score(score,project.tempo,bank,settings,channel_banks=channel_banks,soft_intro=soft_intro,intro_transition=intro_transition)
     report['intro_variation']=project.intro_variation
     if soft_intro:report['intro_audio_processing']={'measures':[1,2,3,4],'seconds':16*60/project.tempo,'soprano_lowpass_hz':3600,'attack_ms':18,'lower_note_velocities':True}
     if intro_transition:report['intro_audio_processing']={'measures':[1,2,3,4],'seconds':16*60/project.tempo,'soprano_lowpass_hz_start':4800,'soprano_lowpass_hz_end':6600,'attack_ms_start':8,'attack_ms_end':5,'velocity_range':[64,75],'transition':'F5 to G5 ascending whole tone; rising register and crescendo'}
+    if project.intro_variation=='trio' and intro_transition:
+        report['intro_audio_processing'].update(ensemble='Soprano + Alto + Tenor',concert_harmony=['C','Am7','Dm7','G7'],nc_overridden_by_user=True,soprano_concert_range=['E4','G5'])
     if project.ensemble=="sat":
         report['kind']='Actual recorded Soprano / Alto / Tenor samples sequenced by computer; nearest recorded SAME-instrument notes shifted where necessary; not a continuous human performance'
         report['ensemble']='sat'

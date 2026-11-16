@@ -65,3 +65,21 @@ def test_flowing_intro_builds_into_theme_without_changing_later_music():
     means=[np.mean([n.velocity for n in intro if bar*4*60/72<=n.start<(bar+1)*4*60/72]) for bar in range(4)]
     assert all(a<b for a,b in zip(means,means[1:]))
     assert [n for n in new if n.channel>0 or n.start>=boundary]==[n for n in old if n.channel>0 or n.start>=boundary]
+
+def test_trio_intro_adds_real_middle_bass_and_register_variety():
+    p=edition('trio');s=arrange(p)
+    new=score_notes(s,72);old=score_notes(arrange(source_version()),72);boundary=16*60/72
+    intro=[n for n in new if n.start<boundary]
+    assert {n.channel for n in intro}=={0,1,2}
+    assert len([n for n in intro if n.channel==1])>=20
+    assert len([n for n in intro if n.channel==2])==8
+    lead=[n for n in intro if n.channel==0]
+    assert max(n.midi for n in lead)-min(n.midi for n in lead)>=15
+    assert 0<next(n for n in new if n.channel==0 and n.start>=boundary).midi-lead[-1].midi<=2
+    for measure in range(1,5):
+        bars=[part.measure(measure) for part in s.parts]
+        assert all(bar.duration.quarterLength==4 for bar in bars)
+        for beat in sorted({n.offset for bar in bars for n in bar.notes}):
+            active=[next(n for n in bar.notes if n.offset<=beat<n.offset+n.quarterLength) for bar in bars]
+            assert active[2].pitch.midi<active[1].pitch.midi<active[0].pitch.midi
+    assert [n for n in new if n.start>=boundary]==[n for n in old if n.start>=boundary]

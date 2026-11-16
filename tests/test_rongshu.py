@@ -22,15 +22,16 @@ def test_rongshu_source_route_and_original_melody_octave():
     assert s.duration.quarterLength==240
     for i,source in enumerate(ROUTE,1):
         assert all(part.measure(i).duration.quarterLength==4 for part in s.parts)
-        if i<=4 and p.intro_variation in ('lyrical','flowing'):continue
+        if i<=4 and p.intro_variation in ('lyrical','flowing','trio'):continue
         original=p.measures[source-1].events;actual=list(s.parts[0].measure(i).notesAndRests)
         assert len(original)==len(actual)
         for e,n in zip(original,actual):
             assert e.beats()==n.quarterLength and (e.degree==0)==n.isRest
             if e.degree:assert n.pitch.midi==event_pitch(e).midi
     for number in range(1,5):
-        assert all(not list(part.measure(number).notes) for part in s.parts[1:])
-    assert len(score_notes(s,p.tempo))==461
+        if p.intro_variation=='trio':assert all(list(part.measure(number).notes) for part in s.parts)
+        else:assert all(not list(part.measure(number).notes) for part in s.parts[1:])
+    assert len(score_notes(s,p.tempo))==495
 
 def test_rongshu_route_reseal_still_rejects_wrong_song_route():
     p=project();p.performance_order=p.performance_order[:-1]
