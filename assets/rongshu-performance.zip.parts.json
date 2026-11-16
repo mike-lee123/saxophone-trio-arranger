@@ -1,0 +1,17 @@
+{
+  "sha256": "063ffa4deb50f35e6f4b0d7391665cf3c8dc5a9b9797a7da47a1e12deda90fe1",
+  "parts": [
+    {
+      "name": "rongshu-performance.zip.part000",
+      "sha256": "a633db364af203e85d906a08ae1d77be1dc03ad58e45a78abbfcb780d9246e62"
+    },
+    {
+      "name": "rongshu-performance.zip.part001",
+      "sha256": "feedfc114e865869e1329e6bf22cbc7209cd8a079825dc59107a6bf0ce0ff3b6"
+    },
+    {
+      "name": "rongshu-performance.zip.part002",
+      "sha256": "413bead448edd71abfc678133bea0f20e4b21ba6173bc63d183091064a02e15d"
+    }
+  ]
+}

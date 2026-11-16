@@ -1,0 +1,21 @@
+{
+  "sha256": "1877a8635d83f68788d4ced08731afede140bacaaf0869e69a68eb86907ebbe5",
+  "parts": [
+    {
+      "name": "tenor_recorded.npz.part000",
+      "sha256": "e3a15dd18686e60f8df9d975973218e1d21d03da3a730c252a2bed032a6530a3"
+    },
+    {
+      "name": "tenor_recorded.npz.part001",
+      "sha256": "59d6c0029e88e9b92b6f11bce3872c232fe15bf0d582b28397e28e94ee470e6b"
+    },
+    {
+      "name": "tenor_recorded.npz.part002",
+      "sha256": "bbfca793b139f1480ff9f6d42763a5c2068da306789d0b2c48c0cec8f3149f5f"
+    },
+    {
+      "name": "tenor_recorded.npz.part003",
+      "sha256": "e7c2442cd354e94fd2c37807e4055f951ebd35c8bc095b3eb1096c241278f926"
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "instrument": "tenor",
+  "recorded_source_count": 31,
+  "mapped_note_count": 64,
+  "source_files": [
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 44,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%231_vl2_rr1.wav",
+      "offset": 209,
+      "sha256": "65082f5260afeea5f28b7a66ed7d7076d9ea09927e5775c9bc530752f847bd10",
+      "tuning_correction_cents": 0.5441644622028406
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 46,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_A%231_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "b50739153f4c33357ee6aaed7e151a9c6e4d675e7755627305190e4711a3fa30",
+      "tuning_correction_cents": 0.26368360683084946
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 48,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_C2_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "09ab83ec9ddccc53dfbcc2fe938eacf35c1f5e6a2add063a24808f294cee40ba",
+      "tuning_correction_cents": 0.19360791644803396
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 50,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D2_vl2_rr1.wav",
+      "offset": 8,
+      "sha256": "06e4b9b0842b3f274459e03b0d53a0f32795ec7999c20c6630581c554af3834d",
+      "tuning_correction_cents": -0.10246140214800024
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 52,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_E2_vl2_rr1.wav",
+      "offset": 3973,
+      "sha256": "b2eaabe51741561e10d998e55cdc202546d33f394d9a35e5ba3e5ea397b2a12e",
+      "tuning_correction_cents": 0.10070151685824648
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 54,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_F%232_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "7dcce4c0312980039c0fc8e58598989759b7448eac0daa8ab245c4706b11e0d5",
+      "tuning_correction_cents": 0.3990578910992738
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 56,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%232_vl2_rr1.wav",
+      "offset": 75,
+      "sha256": "c40b27a266b8547893834ef79f97ee05c4d78cd198d6d91b27aad7b556f68fda",
+      "tuning_correction_cents": 0.10347388376864737
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 58,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_A%232_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "be09161fe8f06650fb3d40e33a1d39e7537d6d5b6acbff3c976b0a5d52e56ad3",
+      "tuning_correction_cents": 0.1902213854545532
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 60,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_C3_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "4afeef41e7f3a5df8c47a3f31389b5948837fe8b21c9e3e9e135829e44050677",
+      "tuning_correction_cents": 0.46740361820226484
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 62,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D3_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "6324a58060534001081a33b54d6c2dfb290dee31ae82639f8514cdacf83eadee",
+      "tuning_correction_cents": 0.06881798609409137
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 64,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_E3_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "3c6553a90fe366f6668488ee228a706d765de1e309e1e8f7d2fc1fa536368745",
+      "tuning_correction_cents": 1.148150028173278
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 66,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_F%233_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "ccd189ac565b1eba4dfa86c3768796ee5396ae42eece9148bd9e1a91ffd8b79e",
+      "tuning_correction_cents": 0.5605585122024852
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 68,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%233_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "ee93e3985c09f84e28dcababc2aadd5daba7568062aac841a9235ddbdd7f6ae7",
+      "tuning_correction_cents": 0.5179986185994787
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 70,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_A%233_vl2_rr1.wav",
+      "offset": 531,
+      "sha256": "f95ba7ddcf84ca07aa4f458e00e999486fbf5489b5f87a8a0d538af4ae6a522d",
+      "tuning_correction_cents": 0.24349172341647296
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 72,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_C4_vl2_rr1.wav",
+      "offset": 185,
+      "sha256": "f2eebd4fc0faecae312bd886c9830b268b134842e927f5a5c79ccc2ed24ed597",
+      "tuning_correction_cents": 0.03673925215395099
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 74,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D4_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "ff1e28ceb67f160ff19f18a67c2e68029194a74bb3f6823c98502b6f66f6fbea",
+      "tuning_correction_cents": 0.0285094520215188
+    },
+    {
+      "instrument": "tenor",
+      "style": "NoVib",
+      "midi": 76,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_E4_vl2_rr1.wav",
+      "offset": 0,
+      "sha256": "603dac939646252362e52323fa8c7899f0a73d7b4b39fce379d7b9bd7e188856",
+      "tuning_correction_cents": 0.4100806509599566
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 46,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_A%231_var2.wav",
+      "offset": 0,
+      "sha256": "747909b44c5759c447f6741b842ffacffbcfa92579c2b625786f4e67c9323c21",
+      "tuning_correction_cents": -6.133708217861802
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 48,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_C2_var4.wav",
+      "offset": 15,
+      "sha256": "7dfc6ddb457baf07c1973348ede1bcfe2c580758b60667109d0850b3e5336891",
+      "tuning_correction_cents": 2.3729842473370093
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 50,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_D2_var2.wav",
+      "offset": 45,
+      "sha256": "4d3c3a9c9bfb9d7630d2edcccb65a78df52c1c8542a1079717a71e6b45c97ee6",
+      "tuning_correction_cents": 4.621863710595748
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 52,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_E2_var2.wav",
+      "offset": 3903,
+      "sha256": "f06183eda0f9ea492a508492ee19fd0460464ca1763544da8ad24d2262feb396",
+      "tuning_correction_cents": 1.2055116522066143
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 54,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_F%232_var3.wav",
+      "offset": 0,
+      "sha256": "1c7ffe33a2fd8007340464c39ba4fe586c90321e7d79d0d0714ac2d6aad7b3c1",
+      "tuning_correction_cents": 0.8963810149869795
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 58,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_A%232_var4.wav",
+      "offset": 1901,
+      "sha256": "ad68f912ec92fb83e297e4ce1066a6c41189dfa3f1bd099db930330693e2accc",
+      "tuning_correction_cents": -7.47787735464475
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 60,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_C3_var1.wav",
+      "offset": 0,
+      "sha256": "20edadeef91e2c480c8a924bbd4b6c38d41f547f3e0e95a2f0f5a982bf216185",
+      "tuning_correction_cents": -1.5438535664218702
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 62,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_D3_var1.wav",
+      "offset": 0,
+      "sha256": "4375f5c5041751d8b8b4e977476785e58e09035182bca2462160258990e46abe",
+      "tuning_correction_cents": 6.458207550138291
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 64,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_E3_var3.wav",
+      "offset": 0,
+      "sha256": "0b8964637191e7f51b1501bed1e1d461cc986547fc2d6227ac41910be59d4998",
+      "tuning_correction_cents": 8.396448226675123
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 66,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_F%233_var2.wav",
+      "offset": 819,
+      "sha256": "5c7cfda8d55eacbfa206b6d66b98c682dc2f48891c0848078544a47f407994cc",
+      "tuning_correction_cents": -9.12706268123545
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 70,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_A%233_var3.wav",
+      "offset": 1055,
+      "sha256": "479e0f48e92c78c002f24fefe05d21bcc6c60b27363549ff9b108c91eb8ee704",
+      "tuning_correction_cents": -3.0551903407347285
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 72,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_C4_var2.wav",
+      "offset": 0,
+      "sha256": "3af58ad97bfaddf59a0303f658a36dfd74e829ed3360ed24d96dc7c521b53e7f",
+      "tuning_correction_cents": -5.586302275383928
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 74,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_D4_var1.wav",
+      "offset": 284,
+      "sha256": "f34ee7f89a4b2e7a1aed3297c919431765ae82ab41196718bcdc0a6924e07cc9",
+      "tuning_correction_cents": 5.188576672705835
+    },
+    {
+      "instrument": "tenor",
+      "style": "Vib",
+      "midi": 76,
+      "url": "https://raw.githubusercontent.com/sgossner/VCSL/dfcf4a4918771eee884b96ad4493de82ef84daf6/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Vibrato/BrettTenor_Vib_Main_E4_var4.wav",
+      "offset": 0,
+      "sha256": "d7a308a74ed3dc30b9baf4c50fe207eb409dda43548fd5081f4f5c5c61ca0e5b",
+      "tuning_correction_cents": -4.528400503267002
+    }
+  ],
+  "mapping": [
+    {
+      "style": "NoVib",
+      "target_midi": 44,
+      "recorded_midi": 44,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 45,
+      "recorded_midi": 44,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 46,
+      "recorded_midi": 46,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 47,
+      "recorded_midi": 46,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 48,
+      "recorded_midi": 48,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 49,
+      "recorded_midi": 48,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 50,
+      "recorded_midi": 50,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 51,
+      "recorded_midi": 50,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 52,
+      "recorded_midi": 52,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 53,
+      "recorded_midi": 52,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 54,
+      "recorded_midi": 54,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 55,
+      "recorded_midi": 54,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 56,
+      "recorded_midi": 56,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 57,
+      "recorded_midi": 56,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 58,
+      "recorded_midi": 58,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 59,
+      "recorded_midi": 58,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 60,
+      "recorded_midi": 60,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 61,
+      "recorded_midi": 60,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 62,
+      "recorded_midi": 62,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 63,
+      "recorded_midi": 62,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 64,
+      "recorded_midi": 64,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 65,
+      "recorded_midi": 64,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 66,
+      "recorded_midi": 66,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 67,
+      "recorded_midi": 66,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 68,
+      "recorded_midi": 68,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 69,
+      "recorded_midi": 68,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 70,
+      "recorded_midi": 70,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 71,
+      "recorded_midi": 70,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 72,
+      "recorded_midi": 72,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 73,
+      "recorded_midi": 72,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 74,
+      "recorded_midi": 74,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 75,
+      "recorded_midi": 74,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 44,
+      "recorded_midi": 46,
+      "shift_semitones": -2
+    },
+    {
+      "style": "Vib",
+      "target_midi": 45,
+      "recorded_midi": 46,
+      "shift_semitones": -1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 46,
+      "recorded_midi": 46,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 47,
+      "recorded_midi": 46,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 48,
+      "recorded_midi": 48,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 49,
+      "recorded_midi": 48,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 50,
+      "recorded_midi": 50,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 51,
+      "recorded_midi": 50,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 52,
+      "recorded_midi": 52,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 53,
+      "recorded_midi": 52,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 54,
+      "recorded_midi": 54,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 55,
+      "recorded_midi": 54,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 56,
+      "recorded_midi": 54,
+      "shift_semitones": 2
+    },
+    {
+      "style": "Vib",
+      "target_midi": 57,
+      "recorded_midi": 58,
+      "shift_semitones": -1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 58,
+      "recorded_midi": 58,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 59,
+      "recorded_midi": 58,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 60,
+      "recorded_midi": 60,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 61,
+      "recorded_midi": 60,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 62,
+      "recorded_midi": 62,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 63,
+      "recorded_midi": 62,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 64,
+      "recorded_midi": 64,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 65,
+      "recorded_midi": 64,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 66,
+      "recorded_midi": 66,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 67,
+      "recorded_midi": 66,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 68,
+      "recorded_midi": 66,
+      "shift_semitones": 2
+    },
+    {
+      "style": "Vib",
+      "target_midi": 69,
+      "recorded_midi": 70,
+      "shift_semitones": -1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 70,
+      "recorded_midi": 70,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 71,
+      "recorded_midi": 70,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 72,
+      "recorded_midi": 72,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 73,
+      "recorded_midi": 72,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 74,
+      "recorded_midi": 74,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 75,
+      "recorded_midi": 74,
+      "shift_semitones": 1
+    }
+  ],
+  "vcsl_commit": "dfcf4a4918771eee884b96ad4493de82ef84daf6",
+  "processing": "mono 44.1kHz; trimmed; measured pitch correction; level balance; nearest recorded SAME instrument for missing chromatic notes"
+}

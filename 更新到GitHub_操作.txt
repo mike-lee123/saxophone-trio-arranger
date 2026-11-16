@@ -1,0 +1,8 @@
+﻿v1.6.0：SAT真實三樂器取樣、榕樹下60小節、曲目切換。
+
+GitHub Desktop選 saxophone-trio-arranger → Repository → Show in Explorer。
+將本資料夾內的全部檔案與子資料夾複製進該clone資料夾，同名檔案取代；不要多包一層資料夾，不複製外層交付ZIP，也不動.git。
+Summary填 Add SAT recorded instruments and Rongshu edition → Commit to main → Push origin。
+Streamlit Cloud入口streamlit_app.py，Python3.11。Push後等待更新，必要時Manage app → Reboot。
+首頁預設榕樹下SAT，可選黃昏的故鄉三Alto；在工作台編輯可調整。
+固定演出庫不隨工作台修改；自動辨識新圖片才需API金鑰。

@@ -21,7 +21,7 @@ def test_cloud_entry_and_private_server_key(monkeypatch):
     secret='test-server-key-not-for-browser'
     monkeypatch.setenv('OPENAI_API_KEY',secret)
     app=AppTest.from_file(str(ROOT/'streamlit_app.py'),default_timeout=30).run()
-    assert not app.exception and app.metric[0].value=='67'
+    assert not app.exception and app.metric[0].value=='60'
     next(r for r in app.radio if r.label=='工作區').set_value('上傳與編曲工作台').run()
     assert not app.exception
     assert all(secret not in str(field.value) for field in app.text_input)

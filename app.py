@@ -15,11 +15,11 @@ from trio.audio import Performance, load_bank, render_project, audio_bundle
 import os
 
 ROOT=Path(__file__).parent
-st.set_page_config(page_title="Saxophone Trio Arranger 1.5.3",page_icon="🎷",layout="wide")
-st.title("🎷 Saxophone Trio Arranger v1.5.3")
-st.caption("Concert C → 日本演歌風格三支 Alto → Written A MusicXML · Concert MIDI · MuseScore PDF")
+st.set_page_config(page_title="Saxophone Trio Arranger 1.6.2",page_icon="🎷",layout="wide")
+st.title("🎷 Saxophone Trio Arranger v1.6.2")
+st.caption("Concert C → 三 Alto／組合 C：Soprano + Alto + Tenor · MusicXML · Concert MIDI · MuseScore PDF")
 if st.session_state.get("project") and st.session_state.project.review_policy=="editorial":
-    st.info("目前為使用者授權的演出編訂模式：67 小節已展開，不要求逐小節人工確認。")
+    st.info("目前為使用者授權的演出編訂模式：演奏路線已展開，不要求逐小節人工確認。")
 else:
     st.warning("辨識內容都是待校對草稿。一般模式須逐小節確認；本曲也可明確選擇完整演出編訂版，免人工簽認。")
 
@@ -69,6 +69,24 @@ with st.sidebar:
         st.rerun()
 
 
+    if st.button("載入組合 C · SAT 完整演出編訂版"):
+        base=Project.model_validate_json((ROOT/"examples/huanghun.draft.json").read_text(encoding="utf-8"))
+        base.ensemble="sat";base.lead_octave=1;base.sat_style="ballad"
+        edition,_=create_edition(base,"使用者選擇組合 C 完整演出編訂，免逐小節人工確認")
+        seal_editorial_edition(edition,edition.editorial_authorization,"67小節演出路線；SAT改編：主旋律明確提高一個八度，Alto中音和聲、Tenor低音支撐。SAT不套用原三Alto版小字填充；結尾C大三和弦及Fermata。")
+        load_project(base,(ROOT/"examples/source/huanghun.jpg").read_bytes())
+        st.session_state.project=edition
+        st.session_state.case_audit=json.loads((ROOT/"examples/huanghun.audit.json").read_text(encoding="utf-8"))
+        st.rerun()
+
+
+    if st.button("載入《榕樹下》· SAT 演出編訂版"):
+        edition=Project.model_validate_json((ROOT/"examples/rongshu.performance.json").read_text(encoding="utf-8"))
+        load_project(edition.model_copy(deep=True),(ROOT/"examples/source/rongshu.jpg").read_bytes())
+        st.session_state.project=edition
+        st.rerun()
+
+
 upload_image=st.file_uploader("上傳簡譜 JPG / PNG（最多 20 MB）",type=["jpg","jpeg","png"])
 source=upload_image.getvalue() if upload_image else st.session_state.get("source_image")
 if source:
@@ -112,13 +130,23 @@ if source and p.source_sha256 and hashlib.sha256(source).hexdigest()!=p.source_s
     st.stop()
 
 st.subheader("1 · 曲目設定")
+p.ensemble=st.selectbox("樂器組合",["alto_trio","sat"],index=0 if p.ensemble=="alto_trio" else 1,format_func=lambda v:"三支 Alto Sax" if v=="alto_trio" else "組合 C：Soprano + Alto + Tenor",key=f"ensemble_{revision}")
+if p.ensemble=="sat":
+    p.sat_style=st.selectbox("SAT 音樂風格",["ballad","classical","soft_jazz"],index=["ballad","classical","soft_jazz"].index(p.sat_style),format_func=lambda v:{"ballad":"抒情 · 歌唱旋律與柔和長音","classical":"古典 · 和弦配置與聲部連接","soft_jazz":"柔和爵士 · 六度與九度色彩（直八分）"}[v],key=f"sat_style_{revision}")
+    p.lead_octave=st.selectbox("Soprano 主旋律八度",[1,0],index=0 if p.lead_octave==1 else 1,format_func=lambda v:"來源主旋律提高一個八度" if v else "保留來源主旋律實音八度",key=f"lead_octave_{revision}")
+    st.caption("Soprano 高音主旋律 · Alto 中音和聲 · Tenor 低音支撐。Concert C → Soprano D、Alto A、Tenor D；Tenor 記譜提高大九度。來源低於 Soprano 音域時請明確選擇提高八度。")
+    if p.edition_profile=="rongshu_60":
+        intro_options=["flowing","lyrical","source"]
+        p.intro_variation=st.selectbox("榕樹下前奏",intro_options,index=intro_options.index(p.intro_variation),format_func=lambda v:{"flowing":"流動漸強 · 自然接入主題（推薦）","lyrical":"柔和分解和弦與順階填充","source":"原譜前奏"}[v],key=f"intro_{revision}")
 a,b,c,d=st.columns([3,1,1,2])
 p.title=a.text_input("曲名",p.title,key=f"title_{revision}")
 p.meter=b.text_input("拍號",p.meter,key=f"meter_{revision}")
 p.tempo=c.number_input("速度",30,240,p.tempo,key=f"tempo_{revision}")
 p.style=d.selectbox("編曲風格",["enka_motion","enka","block"],index={"enka_motion":0,"enka":1,"block":2}[p.style],
-    format_func=lambda x:{"enka_motion":"日本演歌 · 流動和聲與填充","enka":"日本演歌 · 原版延音","block":"三部同節奏和聲"}[x],key=f"style_{revision}")
-if p.review_policy=="editorial":st.info("本版演出路線："+p.editorial_notes)
+    format_func=lambda x:{"enka_motion":"日本演歌 · 流動和聲與填充","enka":"日本演歌 · 原版延音","block":"三部同節奏和聲"}[x],key=f"style_{revision}",disabled=p.ensemble=="sat")
+if p.review_policy=="editorial":
+    if p.ensemble=="sat":st.info(p.editorial_notes+" 修改組合、風格或八度後，請於第3區重新封存。")
+    else:st.info("本版演出路線："+p.editorial_notes)
 elif p.source_notes:st.info("來源辨識備註："+p.source_notes)
 
 st.subheader("2 · 逐小節人工校對")
@@ -219,7 +247,7 @@ else:
     st.caption("編訂模式保留來源與授權紀錄，不虛填人工校對者。修改來源或路線後，請重新封存此版。")
     if st.button("重新封存編訂路線（免人工確認）",disabled=bool(invalid) or order_error):
         try:
-            seal_editorial_edition(p,p.editorial_authorization or "使用者明確選擇免人工確認的編訂輸出",p.editorial_notes)
+            seal_editorial_edition(p,p.editorial_authorization or "使用者明確選擇免人工確認的編訂輸出",p.editorial_notes+ (" SAT改編：Soprano主旋律、Alto中聲部、Tenor低聲部；來源小字填充不沿用；主旋律八度設定="+str(p.lead_octave) if p.ensemble=="sat" and "SAT改編" not in p.editorial_notes else ""))
             st.success("編訂紀錄已更新，可以輸出。")
         except Exception as exc:st.error(str(exc))
 st.download_button("儲存目前草稿 JSON",p.model_dump_json(indent=2),"draft.json","application/json")
@@ -256,6 +284,9 @@ expression=st.slider("演歌表情程度",0.0,1.0,.7,step=.1)
 room=st.slider("空間感",0.0,.3,.1,step=.05)
 settings=Performance(mode,expression,room)
 preview=not valid
+sat_audio_ack=True
+if p.ensemble=="sat":
+    st.info("SAT 使用三種樂器各自的實錄單音：Iowa Soprano、Iowa Alto、VCSL Tenor；缺少的半音由同樂器鄰近錄音移調。這是取樣重組，不是樂手連續演奏。")
 ack=True
 if preview:
     st.warning("目前資料未完成正式確認，只能產生帶 DRAFT 標記的校對試聽；試聽不會替你確認音符。")
@@ -264,7 +295,7 @@ if preview:
 def recorded_bank():
     return load_bank()
 audio_key=hashlib.sha256((p.model_dump_json()+repr(settings)+str(preview)).encode()).hexdigest()
-if st.button("以真實薩克斯取樣產生試奏",disabled=bool(invalid) or order_error or not ack):
+if st.button("以真實薩克斯取樣產生試奏",disabled=bool(invalid) or order_error or not ack or not sat_audio_ack):
     try:
         with st.spinner("載入實錄取樣並製作三部試奏…"):
             files,report=render_project(p,recorded_bank(),settings,preview=preview)
@@ -278,7 +309,9 @@ if result and result["key"]==audio_key:
     st.audio(result["files"]["mix.wav"],format="audio/wav")
     with st.expander("各聲部單獨試聽"):
         for i in range(1,4):
-            st.write(f"Alto {i}")
-            st.audio(result["files"][f"alto_{i}.wav"],format="audio/wav")
+            label=("Soprano","Alto","Tenor")[i-1] if p.ensemble=="sat" else f"Alto {i}"
+            filename=("soprano","alto","tenor")[i-1]+".wav" if p.ensemble=="sat" else f"alto_{i}.wav"
+            st.write(label)
+            st.audio(result["files"][filename],format="audio/wav")
     st.download_button("下載試奏 WAV 與檢查紀錄",audio_bundle(result["files"],result["report"]),"DRAFT_sampled_audio.zip" if preview else "sampled_audio.zip","application/zip")
     st.caption("試奏內容變更後須重新產生。來源：https://theremin.music.uiowa.edu/MISaltosaxophone.html")

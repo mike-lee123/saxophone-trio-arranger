@@ -45,6 +45,10 @@ class Project(BaseModel):
     source_sha256: str = ""
     measures: List[Measure]
     style: Literal["enka", "enka_motion", "block"] = "enka"
+    ensemble: Literal["alto_trio", "sat"] = "alto_trio"
+    sat_style: Literal["ballad", "classical", "soft_jazz"] = "ballad"
+    lead_octave: Literal[0, 1] = 0
+    intro_variation: Literal["source", "lyrical", "flowing"] = "source"
     source_notes: str = ""
     performance_order: List[int] = Field(default_factory=list)
     source_complete: bool = False
@@ -53,7 +57,7 @@ class Project(BaseModel):
     structure_reviewed_at: str = ""
 
     review_policy: Literal["human", "editorial"] = "human"
-    edition_profile: Literal["", "huanghun_67"] = ""
+    edition_profile: Literal["", "huanghun_67", "rongshu_60"] = ""
     editorial_authorization: str = ""
     editorial_notes: str = ""
     editorial_hash: str = ""
@@ -61,10 +65,14 @@ class Project(BaseModel):
 
     def editorial_digest(self):
         body=self.model_dump(exclude={"editorial_hash"})
+        for field,default in (("ensemble","alto_trio"),("sat_style","ballad"),("lead_octave",0),("intro_variation","source")):
+            if body.get(field)==default:body.pop(field,None)
         return hashlib.sha256(json.dumps(body,sort_keys=True).encode()).hexdigest()
 
     def structure_digest(self):
         body=self.model_dump(exclude={"structure_hash", "structure_reviewer", "structure_reviewed_at"})
+        for field,default in (("ensemble","alto_trio"),("sat_style","ballad"),("lead_octave",0),("intro_variation","source")):
+            if body.get(field)==default:body.pop(field,None)
         return hashlib.sha256(json.dumps(body, sort_keys=True).encode()).hexdigest()
 
 class VisionDraft(BaseModel):
@@ -121,6 +129,9 @@ def validate_project(p):
         if p.edition_profile=="huanghun_67":
             from .performance_edition import ROUTE
             if order!=ROUTE:raise ValueError("此編訂配置需要完整67小節路線")
+        if p.edition_profile=="rongshu_60":
+            from .rongshu import ROUTE
+            if order!=ROUTE:raise ValueError("榕樹下編訂需要完整60小節路線")
         if not p.performance_order or not p.editorial_authorization.strip() or not p.editorial_notes.strip() or not p.editorial_at:
             raise ValueError("編訂模式需要明確授權、路線及編訂說明")
         if p.editorial_hash!=p.editorial_digest():raise ValueError("編訂內容已修改，需重新封存編訂紀錄")

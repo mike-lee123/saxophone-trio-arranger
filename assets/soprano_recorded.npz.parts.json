@@ -1,0 +1,21 @@
+{
+  "sha256": "f1794e888bc5744071d8e264086c2a630e2255378392bea13e67ee529cc0f6f4",
+  "parts": [
+    {
+      "name": "soprano_recorded.npz.part000",
+      "sha256": "463de4cd8e37940cc964cd21fdb903b4d3c3b14e74dd9715c8359bd01ab1a313"
+    },
+    {
+      "name": "soprano_recorded.npz.part001",
+      "sha256": "d3fe5cd3ef1981fd0eb73858c1aa4221bef15eac7d115f0fdd460095f07a1326"
+    },
+    {
+      "name": "soprano_recorded.npz.part002",
+      "sha256": "83ef1d4facee38a6c2e5c89646e13a424854e109a76df11284710a9f2fe3b22d"
+    },
+    {
+      "name": "soprano_recorded.npz.part003",
+      "sha256": "5ed36c994b013c78b06f40138c2caa63cce4d1d429f9a678501fb43ee6c901c8"
+    }
+  ]
+}

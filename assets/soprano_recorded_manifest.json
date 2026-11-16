@@ -1,0 +1,953 @@
+{
+  "instrument": "soprano",
+  "recorded_source_count": 62,
+  "mapped_note_count": 64,
+  "source_files": [
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 56,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Ab3.stereo.aif",
+      "offset": 0,
+      "sha256": "bd07c977cd9d93849df6981cb73a3c4d9c8c6ec7e5fc9a98d130d9c7347ccb05",
+      "tuning_correction_cents": 6.240416805191788
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 57,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.A3.stereo.aif",
+      "offset": 0,
+      "sha256": "d96153bf0aa7d97d1358397ca5c86371c18fa1e8a08604cf990ae07ae2c46f04",
+      "tuning_correction_cents": 2.1964899358349226
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 58,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Bb3.stereo.aif",
+      "offset": 0,
+      "sha256": "fb993c4baed2a2b317d05ccbcbc16a093484d218de2aa2fdee62fc8283353bcf",
+      "tuning_correction_cents": 5.4462241301274
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 59,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.B3.stereo.aif",
+      "offset": 0,
+      "sha256": "6a7398390515ab1904c36d4b933f1c35ada9e8da2be5c9b960f9cee10fd50fb4",
+      "tuning_correction_cents": 2.4966133924698357
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 60,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.C4.stereo.aif",
+      "offset": 0,
+      "sha256": "5c560839d22d0f91a7c23edee27e2eb4d65db93e379ddde8cfe03d6ad641aca2",
+      "tuning_correction_cents": 7.4827726367194325
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 61,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Db4.stereo.aif",
+      "offset": 0,
+      "sha256": "3e7191d7259119998917305e64a3c55d1af88934dbe0ec93d877d3ce0c00215e",
+      "tuning_correction_cents": -0.9000123432700766
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 62,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.D4.stereo.aif",
+      "offset": 0,
+      "sha256": "9bdd6f0a3e3122f5820696939a640dd77743d2574e1d9f755a00500310d651a5",
+      "tuning_correction_cents": 3.570707685671856
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 63,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Eb4.stereo.aif",
+      "offset": 0,
+      "sha256": "fe7ab75bbfc07b6529b306caee4e43bb24eb2b985623d6154e16de8974d5b409",
+      "tuning_correction_cents": 7.9314623368267565
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 64,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.E4.stereo.aif",
+      "offset": 0,
+      "sha256": "2c589240dfa9178331ddcb5b0730419491a7833d9738887009376a5488d316c6",
+      "tuning_correction_cents": 5.0098314632836685
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 65,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.F4.stereo.aif",
+      "offset": 0,
+      "sha256": "ec0562fcc578cb19c49dc36a954632c5e01adeddd109e557789f9e5ed3fcfb38",
+      "tuning_correction_cents": 2.3713389132385347
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 66,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Gb4.stereo.aif",
+      "offset": 0,
+      "sha256": "b5f56eb389921814b2a776755d875e10abc3e69c86e63a2d26f2ea5d808ccdfc",
+      "tuning_correction_cents": -1.8767081365672214
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 67,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.G4.stereo.aif",
+      "offset": 0,
+      "sha256": "cf35fcb2dfaad7c54526d41585d5538cc7cbd8cce3356575f1b3879cb60e9253",
+      "tuning_correction_cents": 3.4348699892236416
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 68,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Ab4.stereo.aif",
+      "offset": 0,
+      "sha256": "71fe342522dd6c529b162fa7bcaf85d38896aaa520899b70f50698dfd5a2a0a4",
+      "tuning_correction_cents": -3.9870893491267134
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 69,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.A4.stereo.aif",
+      "offset": 0,
+      "sha256": "4c609ffb5836efe4c19ed7449cb1e148b817e9b3610cc92db4032d005f1c1225",
+      "tuning_correction_cents": -5.628751634920247
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 70,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Bb4.stereo.aif",
+      "offset": 0,
+      "sha256": "313b554330f63dd8b319edfbbfeac1bc694509f1d3adc35539716ae74f115ff6",
+      "tuning_correction_cents": -7.040957218611891
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 71,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.B4.stereo.aif",
+      "offset": 0,
+      "sha256": "fe5a5f2c1ef7f87ebb7bd4582c4e59311bc18c4a73641ce0415073b85d8240bf",
+      "tuning_correction_cents": -4.252420527054677
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 72,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.C5.stereo.aif",
+      "offset": 0,
+      "sha256": "5a2ee2dbcaf12bad58b00eacf77bac9c1b24827f11642d7eecbbe7ab5c3cc0be",
+      "tuning_correction_cents": 18.061140754159776
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 73,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Db5.stereo.aif",
+      "offset": 0,
+      "sha256": "67b761a97e1e42afdd6cc874cec3fcbb580e7a8d19e08025db5ce92af89dc336",
+      "tuning_correction_cents": 2.610745386304329
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 74,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.D5.stereo.aif",
+      "offset": 0,
+      "sha256": "fd1fbb7ffb23ae4ccce068f289d3979b00b6bb649bff72b4868c0f2991f51175",
+      "tuning_correction_cents": 3.7168428344080895
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 75,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Eb5.stereo.aif",
+      "offset": 0,
+      "sha256": "911f21312bddfd7bd9ca1d6acf58c7113743ec3d1c23d982384a51eb266e49f8",
+      "tuning_correction_cents": -0.5291537240078803
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 76,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.E5.stereo.aif",
+      "offset": 0,
+      "sha256": "894796d27419886b56b97a9ed740ceabe6623fcf1fbbf55bec6fd2692e048836",
+      "tuning_correction_cents": -0.9678608556711856
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 77,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.F5.stereo.aif",
+      "offset": 0,
+      "sha256": "4290ef6fa9e96dd47be0b4d32ff97250f60facd47c37d69a4ab7c560ef3fcedd",
+      "tuning_correction_cents": 7.371228181566853
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 78,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Gb5.stereo.aif",
+      "offset": 0,
+      "sha256": "9033be16fdbc0ecd7dc13047bba0b3d6e5a9b42ab71461df44b4208e745b2026",
+      "tuning_correction_cents": 2.5652872803352524
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 79,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.G5.stereo.aif",
+      "offset": 0,
+      "sha256": "e37bad21824e44a575370f8912117912e85543be978ef7c9db9c1db35aa8771d",
+      "tuning_correction_cents": 15.016264264199906
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 80,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Ab5.stereo.aif",
+      "offset": 0,
+      "sha256": "a8654aa63b8f90176086d51140d5ecd7860ff054d793e94386858b4285e1c1be",
+      "tuning_correction_cents": 19.093904445602835
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 81,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.A5.stereo.aif",
+      "offset": 0,
+      "sha256": "f3db962170fe3be31812a543a23ba1bafd1a8da7e3f209023bd6fa5af000bed1",
+      "tuning_correction_cents": 22.92670550624825
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 82,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Bb5.stereo.aif",
+      "offset": 0,
+      "sha256": "7788b7bb247d974f95850cae1c40d2fa4ab4e0ffde8b9d81a853b9440f2ea46b",
+      "tuning_correction_cents": 17.707720950196865
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 83,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.B5.stereo.aif",
+      "offset": 0,
+      "sha256": "b55eedf17d730019184193bf554f92fa7accc00e388ef145333eceed221ea970",
+      "tuning_correction_cents": 14.943063655102854
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 84,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.C6.stereo.aif",
+      "offset": 0,
+      "sha256": "e852637429bc492de8db1a90c020c1cba8c12236f4d9fc75583b5f3750fb503c",
+      "tuning_correction_cents": 8.384151317451117
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 86,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.D6.stereo.aif",
+      "offset": 0,
+      "sha256": "8b833d82f8e4660a3795edf8627871b68ac92657cf5f2d00a2a6b27ffa4fd1c0",
+      "tuning_correction_cents": -74.96418695741346
+    },
+    {
+      "instrument": "soprano",
+      "style": "Vib",
+      "midi": 87,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.vib.ff.Eb6.stereo.aif",
+      "offset": 0,
+      "sha256": "acd5781b08c2e6ecb4e7b6a981f7f5d0680eb1a2433575c57271b5d66a3af870",
+      "tuning_correction_cents": -73.91795865547844
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 56,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Ab3.stereo.aif",
+      "offset": 0,
+      "sha256": "2088aee0a4f4ad94bbbb1f7fbb76a445a47556dcf68e54f9b6e5415c6e058d6f",
+      "tuning_correction_cents": 10.257858839035567
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 57,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.A3.stereo.aif",
+      "offset": 0,
+      "sha256": "7f4f9b09ff5354c423d0a3a4c925ef585a810870aad26c2e6e9b213e332ca96f",
+      "tuning_correction_cents": 3.1955425323370545
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 58,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Bb3.stereo.aif",
+      "offset": 0,
+      "sha256": "107c83621e7a26b118084bc6518b8efd8d4441a1378e14ce2107cf4593f2f845",
+      "tuning_correction_cents": 5.873989622959261
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 59,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.B3.stereo.aif",
+      "offset": 0,
+      "sha256": "c62c6d163064dafc55ae3c1bf9204c26869817a0a030979afd2dff8b13ba45a3",
+      "tuning_correction_cents": 3.1628396642832866
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 60,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.C4.stereo.aif",
+      "offset": 0,
+      "sha256": "0d360d3fdf96efffca6961c0d1230d06c1f9df9f2bfd0bc789f154cf5423bb2e",
+      "tuning_correction_cents": 8.145543524117986
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 61,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Db4.stereo.aif",
+      "offset": 0,
+      "sha256": "9578ad8deb5a339936693fe9bdb1d2f13b0844a2b60ccd35124e3776da543368",
+      "tuning_correction_cents": -1.690615876225608
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 62,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.D4.stereo.aif",
+      "offset": 0,
+      "sha256": "512406b77634a6001754cdc38e7a85c477f2f7ef0ddc37f97833ef0e78252a7e",
+      "tuning_correction_cents": 6.256051736169059
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 63,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Eb4.stereo.aif",
+      "offset": 0,
+      "sha256": "70d50a69657dcd077432806b992ef6ba07cb9e28012ef6e1d66f2b28e508399d",
+      "tuning_correction_cents": 8.766543949239443
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 64,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.E4.stereo.aif",
+      "offset": 0,
+      "sha256": "888ed12a0f52e0107d23e76fb7c77b91bf1a593fbece951a0f62ec7394312e27",
+      "tuning_correction_cents": 7.770056777230305
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 65,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.F4.stereo.aif",
+      "offset": 0,
+      "sha256": "a2da407d2b8286c1b50d5ecaab57ed371d1897ce994af796dbacdfec09bf7f8c",
+      "tuning_correction_cents": 6.91800791613258
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 66,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Gb4.stereo.aif",
+      "offset": 0,
+      "sha256": "bcf844e3efa6e36a3baf9759d06ec76aa3245b4ce39af701f9f14d02b2ece396",
+      "tuning_correction_cents": 1.4115038462963445
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 67,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.G4.stereo.aif",
+      "offset": 0,
+      "sha256": "2030d81abc6ea2a71f145370fc738fb4fad6ba684721fd3c0f5b2ef17b6dfd27",
+      "tuning_correction_cents": 7.062665084241704
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 68,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Ab4.stereo.aif",
+      "offset": 0,
+      "sha256": "208b5d05b7317e0797b318829e199be9883d36121c9e82ee1575ed614badbf35",
+      "tuning_correction_cents": -2.4976189691168176
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 69,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.A4.stereo.aif",
+      "offset": 0,
+      "sha256": "1bf9d6ced51dd67abec07ba9d188bf33e4968adfcef3b94443d5a2f0ba6897f9",
+      "tuning_correction_cents": -2.706660486752251
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 70,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Bb4.stereo.aif",
+      "offset": 0,
+      "sha256": "245d6d860335b4efe491be9cafc4fb085b9fe986ac78e78d228a7bec8e22fe08",
+      "tuning_correction_cents": -5.0636856070334995
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 71,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.B4.stereo.aif",
+      "offset": 0,
+      "sha256": "e240eb125158515d2a836b0c4367bed9ec46990ed1c460a77dfa65edc2240ec2",
+      "tuning_correction_cents": -2.6319446201038375
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 72,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.C5.stereo.aif",
+      "offset": 0,
+      "sha256": "4a0ae110e1c511a9bc4cf42a6175e0e87db765736d3ffe0bdc1eb5886a4865ea",
+      "tuning_correction_cents": 13.70282678381269
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 73,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Db5.stereo.aif",
+      "offset": 0,
+      "sha256": "03477cf83a26423e29aaf21838f8b0ba5b648fcf3902a8004089bda394bbfb49",
+      "tuning_correction_cents": 4.805086638402834
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 74,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.D5.stereo.aif",
+      "offset": 0,
+      "sha256": "9e76a3bf8327d705d93b5651f5c788ac8f95f4497eaffec13420caec15a3129d",
+      "tuning_correction_cents": 5.140081999966461
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 75,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Eb5.stereo.aif",
+      "offset": 0,
+      "sha256": "4a0558edaa653a5d2247ffbb8d5ce1ed186ac94af314a59d864482a32eac212d",
+      "tuning_correction_cents": 3.5433473841982344
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 76,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.E5.stereo.aif",
+      "offset": 0,
+      "sha256": "2cc0e364666db643bf555adfc40b02b075b123e4e14dadbb921c3ec33c58794a",
+      "tuning_correction_cents": 1.2089201711076698
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 77,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.F5.stereo.aif",
+      "offset": 0,
+      "sha256": "f72cb8368f46551a21549f2e593d4e6274549da5791e5663653d61029e9d96c5",
+      "tuning_correction_cents": 6.312351214823759
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 78,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Gb5.stereo.aif",
+      "offset": 0,
+      "sha256": "3e8ec518ceb72eab609fe7d82c2dae07664826d9653274861d0265b25debc0d1",
+      "tuning_correction_cents": 4.661188974915378
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 79,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.G5.stereo.aif",
+      "offset": 0,
+      "sha256": "a085bc4202c4991ceab19096ed275d912d360e9b5d27f5080af7f9512a27a2e0",
+      "tuning_correction_cents": 15.812838431578172
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 80,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Ab5.stereo.aif",
+      "offset": 0,
+      "sha256": "c2c010e3d3f1530331715f1447a265edf740b94ac7a1181181406671b22f6e4c",
+      "tuning_correction_cents": 18.393418291143632
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 81,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.A5.stereo.aif",
+      "offset": 0,
+      "sha256": "47126039192814eaa3740cf08b60ae37a501a660593779768614c87a23185d20",
+      "tuning_correction_cents": 24.013453366574737
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 82,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Bb5.stereo.aif",
+      "offset": 0,
+      "sha256": "d7d5db02d86614abebed6793801ea05d9717ed8466947d19c8869b2d24d1ca04",
+      "tuning_correction_cents": 20.867310271552007
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 83,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.B5.stereo.aif",
+      "offset": 0,
+      "sha256": "9f0148970b27e6bdde06ecdf8878c8c67d2e6f56f8b577fae719c7008ad9c0ae",
+      "tuning_correction_cents": 15.787049352529626
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 84,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.C6.stereo.aif",
+      "offset": 0,
+      "sha256": "8aa0d7c1b2fa90196ec15b51ec6bd7f077a6ff4224ef37e8ac1ab5d75a055b3b",
+      "tuning_correction_cents": 10.494504638980239
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 86,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.D6.stereo.aif",
+      "offset": 0,
+      "sha256": "176fc4930a71c1ae026d40c2c7ab0f02dd04c0c8923289f48b45f6b455e3248d",
+      "tuning_correction_cents": -75.61442982864205
+    },
+    {
+      "instrument": "soprano",
+      "style": "NoVib",
+      "midi": 87,
+      "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Woodwinds/Bb%20Soprano%20Saxophone/SopSax.nonvib.ff.Eb6.stereo.aif",
+      "offset": 0,
+      "sha256": "8a5c11673a0cb9bd376754097c968550825e600225e9bb0b999da9371c4766bb",
+      "tuning_correction_cents": -68.27045267268281
+    }
+  ],
+  "mapping": [
+    {
+      "style": "NoVib",
+      "target_midi": 56,
+      "recorded_midi": 56,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 57,
+      "recorded_midi": 57,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 58,
+      "recorded_midi": 58,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 59,
+      "recorded_midi": 59,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 60,
+      "recorded_midi": 60,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 61,
+      "recorded_midi": 61,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 62,
+      "recorded_midi": 62,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 63,
+      "recorded_midi": 63,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 64,
+      "recorded_midi": 64,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 65,
+      "recorded_midi": 65,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 66,
+      "recorded_midi": 66,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 67,
+      "recorded_midi": 67,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 68,
+      "recorded_midi": 68,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 69,
+      "recorded_midi": 69,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 70,
+      "recorded_midi": 70,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 71,
+      "recorded_midi": 71,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 72,
+      "recorded_midi": 72,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 73,
+      "recorded_midi": 73,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 74,
+      "recorded_midi": 74,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 75,
+      "recorded_midi": 75,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 76,
+      "recorded_midi": 76,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 77,
+      "recorded_midi": 77,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 78,
+      "recorded_midi": 78,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 79,
+      "recorded_midi": 79,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 80,
+      "recorded_midi": 80,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 81,
+      "recorded_midi": 81,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 82,
+      "recorded_midi": 82,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 83,
+      "recorded_midi": 83,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 84,
+      "recorded_midi": 84,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 85,
+      "recorded_midi": 84,
+      "shift_semitones": 1
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 86,
+      "recorded_midi": 86,
+      "shift_semitones": 0
+    },
+    {
+      "style": "NoVib",
+      "target_midi": 87,
+      "recorded_midi": 87,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 56,
+      "recorded_midi": 56,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 57,
+      "recorded_midi": 57,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 58,
+      "recorded_midi": 58,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 59,
+      "recorded_midi": 59,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 60,
+      "recorded_midi": 60,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 61,
+      "recorded_midi": 61,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 62,
+      "recorded_midi": 62,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 63,
+      "recorded_midi": 63,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 64,
+      "recorded_midi": 64,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 65,
+      "recorded_midi": 65,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 66,
+      "recorded_midi": 66,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 67,
+      "recorded_midi": 67,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 68,
+      "recorded_midi": 68,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 69,
+      "recorded_midi": 69,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 70,
+      "recorded_midi": 70,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 71,
+      "recorded_midi": 71,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 72,
+      "recorded_midi": 72,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 73,
+      "recorded_midi": 73,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 74,
+      "recorded_midi": 74,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 75,
+      "recorded_midi": 75,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 76,
+      "recorded_midi": 76,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 77,
+      "recorded_midi": 77,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 78,
+      "recorded_midi": 78,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 79,
+      "recorded_midi": 79,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 80,
+      "recorded_midi": 80,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 81,
+      "recorded_midi": 81,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 82,
+      "recorded_midi": 82,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 83,
+      "recorded_midi": 83,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 84,
+      "recorded_midi": 84,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 85,
+      "recorded_midi": 84,
+      "shift_semitones": 1
+    },
+    {
+      "style": "Vib",
+      "target_midi": 86,
+      "recorded_midi": 86,
+      "shift_semitones": 0
+    },
+    {
+      "style": "Vib",
+      "target_midi": 87,
+      "recorded_midi": 87,
+      "shift_semitones": 0
+    }
+  ],
+  "vcsl_commit": null,
+  "processing": "mono 44.1kHz; trimmed; measured pitch correction; level balance; nearest recorded SAME instrument for missing chromatic notes"
+}

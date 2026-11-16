@@ -52,6 +52,29 @@ def load_bank(path=BANK_PATH):
     if set(result)!=expected:raise ValueError("需要完整 64 個 Alto 錄音單音")
     return result
 
+def load_instrument_bank(name):
+    if name not in ('soprano','tenor'):raise ValueError('Unknown recorded instrument')
+    base=BANK_PATH.parent/(name+'_recorded.npz')
+    spec=json.loads(base.with_name(base.name+'.parts.json').read_text(encoding='utf-8'))
+    chunks=[]
+    for item in spec['parts']:
+        if Path(item['name']).name!=item['name']:raise ValueError('Invalid sample part name')
+        chunk=(base.parent/item['name']).read_bytes()
+        if hashlib.sha256(chunk).hexdigest()!=item['sha256']:raise ValueError('Recorded sample checksum mismatch')
+        chunks.append(chunk)
+    raw=b''.join(chunks)
+    if hashlib.sha256(raw).hexdigest()!=spec['sha256']:raise ValueError('Recorded sample archive mismatch')
+    result={}
+    with np.load(io.BytesIO(raw),allow_pickle=False) as data:
+        for key in data.files:
+            style,pitch=key.rsplit('_',1);sample=np.array(data[key],dtype=np.float32)
+            if sample.ndim!=1 or len(sample)<22050 or not np.isfinite(sample).all():raise ValueError('Invalid recorded sample')
+            sample.setflags(write=False);result[(style,int(pitch))]=sample
+    low,high=(56,87) if name=='soprano' else (44,75)
+    if set(result)!={(style,midi) for style in ('NoVib','Vib') for midi in range(low,high+1)}:raise ValueError('Incomplete instrument bank')
+    return result
+
+
 def preview_score(project):
     """Validate musical structure, never create or change a human confirmation."""
     if not project.measures:raise ValueError("沒有可試奏小節")
@@ -86,7 +109,7 @@ def extend_sample(sample,frames):
 def wav_bytes(data):
     buffer=io.BytesIO();sf.write(buffer,data,SAMPLE_RATE,format="WAV",subtype="PCM_16");return buffer.getvalue()
 
-def render_score(score,bpm,bank,settings=Performance(),max_seconds=600):
+def render_score(score,bpm,bank,settings=Performance(),max_seconds=600,channel_banks=None,soft_intro=False,intro_transition=False):
     settings.validate();notes=score_notes(score,bpm)
     seconds=float(score.duration.quarterLength)*60/bpm
     if seconds+2>max_seconds:raise ValueError("試奏最長 10 分鐘，請分段產生")
@@ -94,10 +117,18 @@ def render_score(score,bpm,bank,settings=Performance(),max_seconds=600):
     length=int((seconds+2)*SAMPLE_RATE);stems=[np.zeros(length,dtype=np.float32) for _ in range(3)]
     for n in notes:
         style="Vib" if settings.mode=="enka" and n.channel==0 and n.duration>=.78 else "NoVib"
-        if (style,n.midi) not in bank:raise ValueError("音高超出錄音取樣範圍 Db3-Ab5")
+        selected=channel_banks[n.channel] if channel_banks is not None else bank
+        if (style,n.midi) not in selected:raise ValueError("音高超出該樂器錄音取樣範圍")
         release=.065 if n.duration<.5 else .10;frames=round((n.duration+release)*SAMPLE_RATE)
-        sound=extend_sample(bank[(style,n.midi)],frames)
-        attack=min(int(.004*SAMPLE_RATE),len(sound)//8);sound[:attack]*=np.linspace(0,1,attack)
+        sound=extend_sample(selected[(style,n.midi)],frames)
+        gentle=(soft_intro or intro_transition) and n.channel==0 and n.start<16*60/bpm-1e-6
+        progress=min(1,n.start/(16*60/bpm))
+        if gentle:
+            from scipy.signal import butter,sosfilt
+            cutoff=4800+1800*progress if intro_transition else 3600
+            sound=sosfilt(butter(2,cutoff,fs=SAMPLE_RATE,btype='lowpass',output='sos'),sound).astype(np.float32)
+        attack_seconds=(.008-.003*progress if intro_transition else .018) if gentle else .004
+        attack=min(int(attack_seconds*SAMPLE_RATE),len(sound)//8);sound[:attack]*=np.linspace(0,1,attack)
         off=round(n.duration*SAMPLE_RATE);sound[off:]*=np.cos(np.linspace(0,np.pi/2,len(sound)-off))**2
         if settings.mode=="enka":
             strength=settings.expression;t=np.linspace(0,1,len(sound))
@@ -138,7 +169,26 @@ def render_project(project,bank,settings=Performance(),preview=False):
     if project.edition_profile=="huanghun_67":
         from .performance_edition import performance_with_fermata
         score=performance_with_fermata(score)
-    files,report=render_score(score,project.tempo,bank,settings)
+    channel_banks=None
+    if project.ensemble=="sat":
+        channel_banks=(load_instrument_bank('soprano'),bank,load_instrument_bank('tenor'))
+    soft_intro=project.ensemble=='sat' and project.edition_profile=='rongshu_60' and project.intro_variation=='lyrical'
+    intro_transition=project.ensemble=='sat' and project.edition_profile=='rongshu_60' and project.intro_variation=='flowing'
+    files,report=render_score(score,project.tempo,bank,settings,channel_banks=channel_banks,soft_intro=soft_intro,intro_transition=intro_transition)
+    report['intro_variation']=project.intro_variation
+    if soft_intro:report['intro_audio_processing']={'measures':[1,2,3,4],'seconds':16*60/project.tempo,'soprano_lowpass_hz':3600,'attack_ms':18,'lower_note_velocities':True}
+    if intro_transition:report['intro_audio_processing']={'measures':[1,2,3,4],'seconds':16*60/project.tempo,'soprano_lowpass_hz_start':4800,'soprano_lowpass_hz_end':6600,'attack_ms_start':8,'attack_ms_end':5,'velocity_range':[64,75],'transition':'F5 to G5 ascending whole tone; rising register and crescendo'}
+    if project.ensemble=="sat":
+        report['kind']='Actual recorded Soprano / Alto / Tenor samples sequenced by computer; nearest recorded SAME-instrument notes shifted where necessary; not a continuous human performance'
+        report['ensemble']='sat'
+        report['sample_count']=sum(len(b) for b in channel_banks)
+        report['instrument_sources']={
+            'soprano':{'source':'University of Iowa MIS / Michael Giles','url':'https://theremin.music.uiowa.edu/MIS-Pitches-2012/MISBbSopranoSaxophone2012.html','manifest':'soprano_recorded_manifest.json'},
+            'alto':{'source':'University of Iowa MIS / Michael Giles','url':'https://theremin.music.uiowa.edu/MISaltosaxophone.html','manifest':'iowa_alto_manifest.json'},
+            'tenor':{'source':'Versilian Community Sample Library / Brett','url':'https://versilian-studios.com/vcsl/','license':'CC0','manifest':'tenor_recorded_manifest.json'}}
+        for i,name in enumerate(('soprano','alto','tenor'),1):
+            files[name+'.wav']=files.pop(f'alto_{i}.wav')
+            report['stats'][name]=report['stats'].pop(f'alto_{i}')
     report["status"]="UNREVIEWED DRAFT" if preview else "EDITORIAL PERFORMANCE EDITION" if project.review_policy=="editorial" else "HUMAN CONFIRMED SOURCE"
     report["project_sha256"]=hashlib.sha256(project.model_dump_json().encode()).hexdigest()
     return files,report

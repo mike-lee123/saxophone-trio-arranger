@@ -47,10 +47,11 @@ def export_bundle(p, pdf=False, executable=""):
                 for mark in list(measure.getElementsByClass(expressions.RehearsalMark)):measure.remove(mark)
         full.write("musicxml",fp=str(folder/"score.musicxml"))
         from music21 import stream
+        names=("soprano","alto","tenor") if p.ensemble=="sat" else ("alto_1","alto_2","alto_3")
         for i,part in enumerate(written.parts,1):
             s=stream.Score(); s.metadata=copy.deepcopy(written.metadata)
             s.insert(0,copy.deepcopy(part)); s.atSoundingPitch=False
-            s.write("musicxml",fp=str(folder/f"alto_{i}.musicxml"))
+            s.write("musicxml",fp=str(folder/f"{names[i-1]}.musicxml"))
         from .playback import write_concert_midi
         playback=concert
         if p.edition_profile=="huanghun_67":
@@ -61,7 +62,7 @@ def export_bundle(p, pdf=False, executable=""):
         if pdf:
             exe=musescore_path(executable)
             for source in folder.glob("*.musicxml"): render_pdf(source,source.with_suffix(".pdf"),exe)
-        manifest={"version":__version__,"title":p.title,"style":p.style,"review_policy":p.review_policy,"editorial_notes":p.editorial_notes,"source_sha256":p.source_sha256,"structure_reviewer":p.structure_reviewer,"performance_order":p.performance_order or [m.number for m in p.measures],"musicxml":"Alto written A major; Eb transposition","midi":"Concert C major","pdf":pdf,"files":sorted(x.name for x in folder.iterdir())}
+        manifest={"version":__version__,"title":p.title,"style":p.style,"review_policy":p.review_policy,"editorial_notes":p.editorial_notes,"source_sha256":p.source_sha256,"structure_reviewer":p.structure_reviewer,"performance_order":p.performance_order or [m.number for m in p.measures],"ensemble":p.ensemble,"sat_style":p.sat_style,"lead_octave":p.lead_octave,"musicxml":("Soprano D major (+2); Alto A major (+9); Tenor D major (+14)" if p.ensemble=="sat" else "Alto written A major; Eb transposition"),"midi":"Concert C major","pdf":pdf,"files":sorted(x.name for x in folder.iterdir())}
         (folder/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
         import io
         buf=io.BytesIO()

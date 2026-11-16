@@ -15,7 +15,7 @@ class SoundingNote:
 
 def score_notes(score,bpm):
     notes=[];unit=60/float(bpm)
-    if len(score.parts)!=3: raise ValueError("需要三個 Alto 聲部")
+    if len(score.parts)!=3: raise ValueError("需要三個薩克斯聲部")
     for channel,part in enumerate(score.parts):
         pending=None
         for n in part.flatten().notesAndRests:
@@ -47,8 +47,8 @@ def write_concert_midi(score,bpm,path):
     end_tick=round(float(score.duration.quarterLength)*ticks)
     for channel in range(3):
         track=mido.MidiTrack();midi.tracks.append(track)
-        track.append(mido.MetaMessage("track_name",name=f"Alto {channel+1}",time=0))
-        track.append(mido.Message("program_change",channel=channel,program=65,time=0))
+        track.append(mido.MetaMessage("track_name",name=score.parts[channel].partName or f"Sax {channel+1}",time=0))
+        track.append(mido.Message("program_change",channel=channel,program=score.parts[channel].getInstrument().midiProgram if score.parts[channel].getInstrument().midiProgram is not None else 65,time=0))
         schedule=[]
         for n in notes:
             if n.channel!=channel:continue

@@ -1,0 +1,2821 @@
+{
+  "title": "榕樹下 — SAT 演出編訂版",
+  "meter": "4/4",
+  "source_key": "C",
+  "tempo": 72,
+  "source_sha256": "68e00a522dcbe891793a4691f0e716546583318d6ebe3cfc5d9e714c148029ea",
+  "measures": [
+    {
+      "number": 1,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "N.C.",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "前奏反覆起點",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 2,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "前奏反覆終點；本版1–2演奏兩次",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 3,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "Segno來源定位",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 4,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Em",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 5,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 6,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Am",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 7,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 8,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Em",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 9,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 10,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "原圖小字5321、2165作可選裝飾；本版保留大字持續主旋律",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 11,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "主歌反覆起點；兩段歌詞",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 12,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "三連音判讀為後三個十六分三連音，前置3為八分音符",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 13,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 14,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "原圖小字5616、53、5作可選填充，本版不替代主旋律",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 15,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 16,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 17,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 18,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 19,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 20,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 21,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Am",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 22,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "小字休止、5、67、12為可選伴奏提示，不替代持續主旋律",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 23,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "E7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 24,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Am",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 25,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 26,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "小字022、234、5為可選填充，本版保留大字旋律",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 27,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Em",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 28,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Am",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 29,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "232為八分+兩十六分；無三連音括號，依雙線位置編訂",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 30,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "第一段續間奏；第二段此處接35尾奏；原圖Segno/Coda定位",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 31,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "間奏；6延音線",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 32,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 33,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 34,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "反覆終點，返回11；小字音型不替代主旋律",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 35,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "Coda尾奏起點",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 36,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Em",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 37,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 38,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "Fine",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    }
+  ],
+  "style": "enka",
+  "ensemble": "sat",
+  "sat_style": "ballad",
+  "lead_octave": 0,
+  "intro_variation": "flowing",
+  "source_notes": "榕樹下SAT演出編訂：男聲Concert C、4/4、Soul抒情。38個印刷小節，路線1–2兩次，3–34，11–30，35–38，展開60小節。第一段主歌後奏31–34間奏並反覆11，第二段在30後接35尾奏至Fine；Segno僅作定位，未添加來源未寫明的D.S.。這是本版採用的可演出路線，不宣稱原譜唯一解。第12小節三連音採八分前置音加三個十六分三連音；29小節232依雙線判為八分加兩十六分。小字伴奏提示不替代大字持續旋律，本版未另配小字裝飾。速度72為編訂值。SAT主旋律保留來源實音八度，不提高八度。",
+  "performance_order": [
+    1,
+    2,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    35,
+    36,
+    37,
+    38
+  ],
+  "source_complete": false,
+  "structure_hash": "",
+  "structure_reviewer": "",
+  "structure_reviewed_at": "",
+  "review_policy": "editorial",
+  "edition_profile": "rongshu_60",
+  "editorial_authorization": "使用者要求更換為上傳的榕樹下，沿用SAT及免人工確認演出編訂；使用者要求前奏加入分解和弦／順階經過音／填充並改善尖銳音色；使用者要求改善太柔和及與後段銜接問題",
+  "editorial_notes": "榕樹下SAT演出編訂：男聲Concert C、4/4、Soul抒情。38個印刷小節，路線1–2兩次，3–34，11–30，35–38，展開60小節。第一段主歌後奏31–34間奏並反覆11，第二段在30後接35尾奏至Fine；Segno僅作定位，未添加來源未寫明的D.S.。這是本版採用的可演出路線，不宣稱原譜唯一解。第12小節三連音採八分前置音加三個十六分三連音；29小節232依雙線判為八分加兩十六分。小字伴奏提示不替代大字持續旋律，本版未另配小字裝飾。速度72為編訂值。SAT主旋律保留來源實音八度，不提高八度。 本次調整為流動漸強前奏：前4小節使用分解和弦與八分音符順階經過句，後兩小節逐步提高音域與力度；末音F5接主題G5，全音上行，力度73接76。保留自然亮度並逐步開放高頻（4800至6600Hz），起音8ms漸接5ms；第5小節起及Alto/Tenor音符不變。",
+  "editorial_hash": "2d62d110ad7cee57a0db5ad01f0815b6cbde87ff6d027163de359dfb9b389a60",
+  "editorial_at": "2026-11-16T21:54:47.638079+00:00"
+}

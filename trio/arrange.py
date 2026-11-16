@@ -24,6 +24,9 @@ def arrange(p):
 
 
 def _style_score(p):
+    if p.ensemble=="sat":
+        from .sat import build_sat
+        return build_sat(p)
     score=_build_score(p)
     if p.style=="enka_motion":
         from .fills import enrich_accompaniment
@@ -136,6 +139,8 @@ def _build_score(p):
 def written_score(concert):
     written=concert.toWrittenPitch(inPlace=False)
     for part in written.parts:
+        signatures=list(part.recurse().getElementsByClass(key.KeySignature))
+        signature=signatures[0] if signatures else key.KeySignature(0)
         for measure in part.getElementsByClass(stream.Measure):
-            measure.makeAccidentals(useKeySignature=key.KeySignature(3), overrideStatus=True, inPlace=True)
+            measure.makeAccidentals(useKeySignature=signature, overrideStatus=True, inPlace=True)
     return written
