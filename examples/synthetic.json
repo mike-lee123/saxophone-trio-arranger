@@ -1,0 +1,55 @@
+{
+  "title": "Synthetic validation melody (not 黃昏的故鄉)",
+  "meter": "4/4",
+  "source_key": "C",
+  "tempo": 80,
+  "measures": [
+    {
+      "number": 1,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "uncertain": false
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "uncertain": false
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "uncertain": false
+        },
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "uncertain": false
+        }
+      ]
+    }
+  ],
+  "style": "block"
+}

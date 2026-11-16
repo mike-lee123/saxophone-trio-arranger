@@ -7,3 +7,6 @@
 執行環境：Windows、Python3.9.6及requirements.txt既有相符套件。雲端部署請選Python3.11；這份交付未聲稱完成Linux／Python3.11乾淨建置或真實Community Cloud部署。
 真實OpenAI API與MuseScore整合測試略過；首頁既有PDF可下載，新編曲MusicXML可交本機MuseScore列印。
 雲端資源、相依套件安裝與公開網址的最終驗證須以使用者部署後的建置記錄及實際網站為準。
+
+缺檔修復追加驗證：8項相關測試通過，包含缺檔提示、暫存上傳恢復儀表板、無效ZIP拒絕、原有操作及雲端入口。詳見asset-fix-test-results.xml。
+

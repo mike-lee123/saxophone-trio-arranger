@@ -2,6 +2,8 @@
 """Performance library and editing workspace, served through real download buttons."""
 from pathlib import Path
 import json
+import io
+import hashlib
 import runpy
 import zipfile
 import streamlit as st
@@ -23,14 +25,68 @@ else:
     def file_bytes(path,mtime):
         return Path(path).read_bytes()
 
+    @st.cache_data(show_spinner=False)
+    def performance_parts(manifest_path,mtime):
+        manifest=Path(manifest_path)
+        spec=json.loads(manifest.read_text(encoding='utf-8'))
+        pieces=[]
+        for item in spec['parts']:
+            name=Path(item['name'])
+            if name.name!=item['name']:
+                raise ValueError("Invalid part filename")
+            chunk=(manifest.parent/name).read_bytes()
+            if hashlib.sha256(chunk).hexdigest()!=item['sha256']:
+                raise ValueError("Part checksum mismatch: "+str(name))
+            pieces.append(chunk)
+        payload=b''.join(pieces)
+        if hashlib.sha256(payload).hexdigest()!=spec['sha256']:
+            raise ValueError("Performance archive checksum mismatch")
+        return payload
+
     archive=ROOT/"assets/complete-performance.zip"
+    part_manifest=archive.with_name(archive.name+'.parts.json')
     st.title("黃昏的故鄉")
     st.caption("正式演出編訂版 · 樂譜、分聲部練習與完整演出，一處完成")
-    if not archive.is_file():
-        st.error("找不到內附演出檔案，請重新解壓完整 Dashboard 專案。")
+    if part_manifest.is_file():
+        try:
+            data=performance_parts(str(part_manifest),part_manifest.stat().st_mtime_ns)
+        except (OSError,ValueError,KeyError) as exc:
+            st.error("演出資料分片不完整或損壞，請補上 assets 中全部 complete-performance.zip.part 檔案與 parts.json。"+str(exc))
+            st.stop()
+    elif archive.is_file():
+        data=file_bytes(str(archive),archive.stat().st_mtime_ns)
+    else:
+        st.warning("網站程式已啟動，但尚未載入演出資料包。")
+        st.write("請在 GitHub 上傳完整 assets 資料夾，包含 complete-performance.zip.part000、part001、part002 及 complete-performance.zip.parts.json。程式會自動重組，不需手動合併。Commit 後等待 Cloud 更新。")
+        st.code("assets/complete-performance.zip.parts.json\nassets/complete-performance.zip.part000\nassets/complete-performance.zip.part001\nassets/complete-performance.zip.part002")
+        st.caption("也可先上傳演出 ZIP 立即使用；僅此瀏覽器連線有效，網站重啟後不保留。這是演出資料包，不是程式碼專案 ZIP。")
+        uploaded=st.file_uploader("載入演出資料包 complete-performance.zip",type=['zip'],key='performance_upload')
+        if uploaded is not None:
+            st.session_state.performance_upload_bytes=uploaded.getvalue()
+        data=st.session_state.get('performance_upload_bytes')
+        if not data:
+            st.info("沒有資料包仍可切換左側「上傳與編曲工作台」。")
+            st.stop()
+    try:
+        if len(data)>40*1024*1024:
+            raise ValueError("演出資料包限40MB")
+        with zipfile.ZipFile(io.BytesIO(data)) as candidate:
+            required=['演出與聲音檢查.json','演出路線.json','來源簡譜.jpg','演出路線與編訂說明.pdf','三部總譜_正式演出.pdf','簡譜總譜_Alto_A調_正式演出.pdf','三部合奏_完整演出.mp3','score.musicxml','concert.mid']
+            for i in range(1,4):
+                required.extend([f'Alto {i} 分譜_正式演出.pdf',f'Alto{i}_簡譜_A調_正式演出.pdf',f'Alto{i}_完整試奏.mp3',f'alto_{i}.musicxml'])
+            if any(name not in candidate.namelist() for name in required):
+                raise ValueError("缺少必要樂譜或音檔；請使用完整演出資料包，而非程式碼 ZIP")
+            if sum(item.file_size for item in candidate.infolist())>100*1024*1024:
+                raise ValueError("資料包解壓大小過大")
+            report_check=json.loads(candidate.read('演出與聲音檢查.json'))
+            route_check=json.loads(candidate.read('演出路線.json'))
+            assert report_check['notated_measures']==67 and len(route_check['sections'])==7
+            assert report_check['notation_musicxml_roundtrip'] is True
+    except (ValueError,KeyError,AssertionError,zipfile.BadZipFile,UnicodeError) as exc:
+        st.error("無法載入這份演出資料包，請改用完整的 complete-performance.zip。"+str(exc))
+        st.session_state.pop('performance_upload_bytes',None)
         st.stop()
-    data=file_bytes(str(archive),archive.stat().st_mtime_ns)
-    with zipfile.ZipFile(archive) as z:
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
         report=json.loads(z.read("演出與聲音檢查.json"))
         route=json.loads(z.read("演出路線.json"))
         def download(label,name,key):

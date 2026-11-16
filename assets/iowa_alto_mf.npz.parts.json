@@ -1,0 +1,21 @@
+{
+  "sha256": "3e76dccc7fef199f3add54a221b77c9e70dc59431d3926a011594b1f2e2ca6c4",
+  "parts": [
+    {
+      "name": "iowa_alto_mf.npz.part000",
+      "sha256": "48d6a596e282e4d8e2527c0a55a5ad97f5fd0110ba967aa2096ca58e4023d9ea"
+    },
+    {
+      "name": "iowa_alto_mf.npz.part001",
+      "sha256": "5f78353dd7195e0038b899229bcf43c366902f1b493c21c5da96b5f9f68df462"
+    },
+    {
+      "name": "iowa_alto_mf.npz.part002",
+      "sha256": "feb2d1c937f8ff0f27ac7d04164bf4c9c912609cf60576c6303f65230097115b"
+    },
+    {
+      "name": "iowa_alto_mf.npz.part003",
+      "sha256": "5ab3c601759756b79461ee224fbb99da5bc501fd6b1986c1245946c1a8b2626b"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "source": "University of Iowa MIS",
+  "source_url": "https://theremin.music.uiowa.edu/MISaltosaxophone.html",
+  "terms_url": "https://theremin.music.uiowa.edu/MIS.html",
+  "performer": "Michael Giles",
+  "recorded": "November 1997",
+  "sample_rate": 44100,
+  "sample_count": 64,
+  "preprocessing": "trimmed, pitch-calibrated, high-pass 65Hz, level-balanced",
+  "source_files": [
+    {
+      "file": "AltoSax.NoVib.mf.C4B4.aiff",
+      "sha256": "ddbd1ac97adcc68bf89c14c6fea621a841a29d79c8a2629b3f3f42f3c9e7a34a",
+      "notes": [
+        {
+          "concert_midi": 60,
+          "source_f0_hz": 263.93188806895256,
+          "source_tuning_cents": 15.194571439336661,
+          "sample_seconds": 2.671995464852608
+        },
+        {
+          "concert_midi": 61,
+          "source_f0_hz": 279.46423660617484,
+          "source_tuning_cents": 14.19217713361597,
+          "sample_seconds": 3.1219954648526076
+        },
+        {
+          "concert_midi": 62,
+          "source_f0_hz": 295.5446414750712,
+          "source_tuning_cents": 11.047047457164068,
+          "sample_seconds": 2.5419954648526075
+        },
+        {
+          "concert_midi": 63,
+          "source_f0_hz": 312.20689895244095,
+          "source_tuning_cents": 5.998672427063996,
+          "sample_seconds": 2.5119954648526077
+        },
+        {
+          "concert_midi": 64,
+          "source_f0_hz": 330.64889556218503,
+          "source_tuning_cents": 5.355870708196705,
+          "sample_seconds": 2.2819954648526077
+        },
+        {
+          "concert_midi": 65,
+          "source_f0_hz": 352.72757645443403,
+          "source_tuning_cents": 17.261016629149463,
+          "sample_seconds": 2.421995464852608
+        },
+        {
+          "concert_midi": 66,
+          "source_f0_hz": 373.07053612492916,
+          "source_tuning_cents": 14.33388195442402,
+          "sample_seconds": 2.8219954648526078
+        },
+        {
+          "concert_midi": 67,
+          "source_f0_hz": 397.2869224976047,
+          "source_tuning_cents": 23.21333747979553,
+          "sample_seconds": 2.5219954648526075
+        },
+        {
+          "concert_midi": 68,
+          "source_f0_hz": 419.2653731825813,
+          "source_tuning_cents": 16.432192284197917,
+          "sample_seconds": 2.8119954648526075
+        },
+        {
+          "concert_midi": 69,
+          "source_f0_hz": 445.9486637557579,
+          "source_tuning_cents": 23.248940783969424,
+          "sample_seconds": 2.251995464852608
+        },
+        {
+          "concert_midi": 70,
+          "source_f0_hz": 474.1949863162796,
+          "source_tuning_cents": 29.572262569655443,
+          "sample_seconds": 2.4319954648526076
+        },
+        {
+          "concert_midi": 71,
+          "source_f0_hz": 503.00160031769366,
+          "source_tuning_cents": 31.671359529234447,
+          "sample_seconds": 2.4519954648526077
+        }
+      ]
+    },
+    {
+      "file": "AltoSax.NoVib.mf.C5Ab5.aiff",
+      "sha256": "976cba709716f326f99ae40f8efc71f52946d60e466fe2f34e7308260ec5330e",
+      "notes": [
+        {
+          "concert_midi": 72,
+          "source_f0_hz": 531.2897984589287,
+          "source_tuning_cents": 26.39458496696144,
+          "sample_seconds": 2.4719954648526077
+        },
+        {
+          "concert_midi": 73,
+          "source_f0_hz": 561.2589479063994,
+          "source_tuning_cents": 21.39561985333855,
+          "sample_seconds": 2.2919954648526075
+        },
+        {
+          "concert_midi": 74,
+          "source_f0_hz": 593.9971607371465,
+          "source_tuning_cents": 19.54301357935097,
+          "sample_seconds": 2.401995464852608
+        },
+        {
+          "concert_midi": 75,
+          "source_f0_hz": 631.0068153555982,
+          "source_tuning_cents": 24.18247650057472,
+          "sample_seconds": 2.171995464852608
+        },
+        {
+          "concert_midi": 76,
+          "source_f0_hz": 672.5805836796453,
+          "source_tuning_cents": 34.64432891461441,
+          "sample_seconds": 2.5419954648526075
+        },
+        {
+          "concert_midi": 77,
+          "source_f0_hz": 710.6045900665401,
+          "source_tuning_cents": 29.85218064131344,
+          "sample_seconds": 2.361995464852608
+        },
+        {
+          "concert_midi": 78,
+          "source_f0_hz": 753.7429632145356,
+          "source_tuning_cents": 31.88292555453898,
+          "sample_seconds": 2.5319954648526077
+        },
+        {
+          "concert_midi": 79,
+          "source_f0_hz": 799.6028698247725,
+          "source_tuning_cents": 34.136151517692625,
+          "sample_seconds": 3.1619954648526076
+        },
+        {
+          "concert_midi": 80,
+          "source_f0_hz": 845.8039570117706,
+          "source_tuning_cents": 31.383743369652258,
+          "sample_seconds": 2.7919954648526075
+        }
+      ]
+    },
+    {
+      "file": "AltoSax.NoVib.mf.Db3B3.aiff",
+      "sha256": "2b56ee8118143731db124aecaa8f5670934051de8e92192cb17995756dc1bae3",
+      "notes": [
+        {
+          "concert_midi": 49,
+          "source_f0_hz": 139.74600228941216,
+          "source_tuning_cents": 14.364186519044729,
+          "sample_seconds": 2.961995464852608
+        },
+        {
+          "concert_midi": 50,
+          "source_f0_hz": 147.6005451634886,
+          "source_tuning_cents": 9.033431513081114,
+          "sample_seconds": 3.0519954648526078
+        },
+        {
+          "concert_midi": 51,
+          "source_f0_hz": 155.67329023050874,
+          "source_tuning_cents": 1.2214924107865346,
+          "sample_seconds": 2.591995464852608
+        },
+        {
+          "concert_midi": 52,
+          "source_f0_hz": 164.97140793295532,
+          "source_tuning_cents": 1.6549775364879522,
+          "sample_seconds": 3.0719954648526078
+        },
+        {
+          "concert_midi": 53,
+          "source_f0_hz": 173.83911608341361,
+          "source_tuning_cents": -7.700935693570157,
+          "sample_seconds": 2.5519954648526078
+        },
+        {
+          "concert_midi": 54,
+          "source_f0_hz": 184.73174917762174,
+          "source_tuning_cents": -2.4860224091766643,
+          "sample_seconds": 2.671995464852608
+        },
+        {
+          "concert_midi": 55,
+          "source_f0_hz": 197.08096410788116,
+          "source_tuning_cents": 9.541892725914954,
+          "sample_seconds": 2.6219954648526076
+        },
+        {
+          "concert_midi": 56,
+          "source_f0_hz": 208.0314494979264,
+          "source_tuning_cents": 3.157747491225892,
+          "sample_seconds": 2.4519954648526077
+        },
+        {
+          "concert_midi": 57,
+          "source_f0_hz": 221.4106715391342,
+          "source_tuning_cents": 11.065481976006524,
+          "sample_seconds": 3.1419954648526076
+        },
+        {
+          "concert_midi": 58,
+          "source_f0_hz": 234.64353582552863,
+          "source_tuning_cents": 11.56063097936822,
+          "sample_seconds": 2.691995464852608
+        },
+        {
+          "concert_midi": 59,
+          "source_f0_hz": 248.58058709863053,
+          "source_tuning_cents": 11.452131721544147,
+          "sample_seconds": 2.381995464852608
+        }
+      ]
+    },
+    {
+      "file": "AltoSax.Vib.mf.C4B4.aiff",
+      "sha256": "b19146eac3665ee82a5200fefd56c33a87d80bf946be734377f5347585f896ee",
+      "notes": [
+        {
+          "concert_midi": 60,
+          "source_f0_hz": 262.44711461102827,
+          "source_tuning_cents": 5.427855176559427,
+          "sample_seconds": 3.2419954648526077
+        },
+        {
+          "concert_midi": 61,
+          "source_f0_hz": 278.3473654316516,
+          "source_tuning_cents": 7.259485226325217,
+          "sample_seconds": 2.8219954648526078
+        },
+        {
+          "concert_midi": 62,
+          "source_f0_hz": 294.83783978485326,
+          "source_tuning_cents": 6.901803397636668,
+          "sample_seconds": 2.5819954648526076
+        },
+        {
+          "concert_midi": 63,
+          "source_f0_hz": 311.3615281452817,
+          "source_tuning_cents": 1.304606600565339,
+          "sample_seconds": 2.901995464852608
+        },
+        {
+          "concert_midi": 64,
+          "source_f0_hz": 330.3413894354025,
+          "source_tuning_cents": 3.7450599974430165,
+          "sample_seconds": 3.0319954648526077
+        },
+        {
+          "concert_midi": 65,
+          "source_f0_hz": 352.41766697796874,
+          "source_tuning_cents": 15.739270925475111,
+          "sample_seconds": 2.9119954648526076
+        },
+        {
+          "concert_midi": 66,
+          "source_f0_hz": 372.9752532316901,
+          "source_tuning_cents": 13.891665156690665,
+          "sample_seconds": 3.0219954648526075
+        },
+        {
+          "concert_midi": 67,
+          "source_f0_hz": 396.91856333937733,
+          "source_tuning_cents": 21.607415651983278,
+          "sample_seconds": 3.191995464852608
+        },
+        {
+          "concert_midi": 68,
+          "source_f0_hz": 418.1586823139752,
+          "source_tuning_cents": 11.856393401117762,
+          "sample_seconds": 3.0519954648526078
+        },
+        {
+          "concert_midi": 69,
+          "source_f0_hz": 445.2177372685585,
+          "source_tuning_cents": 20.409055652974033,
+          "sample_seconds": 3.2719954648526075
+        },
+        {
+          "concert_midi": 70,
+          "source_f0_hz": 473.6627133082287,
+          "source_tuning_cents": 27.627900558008463,
+          "sample_seconds": 2.841995464852608
+        },
+        {
+          "concert_midi": 71,
+          "source_f0_hz": 502.873220283944,
+          "source_tuning_cents": 31.229443930389603,
+          "sample_seconds": 3.3319954648526076
+        }
+      ]
+    },
+    {
+      "file": "AltoSax.Vib.mf.C5Ab5.aiff",
+      "sha256": "13d02921eaf5a5316e8cfc154995eed3619d7c006e7c9e4d8f7dc526ecd20012",
+      "notes": [
+        {
+          "concert_midi": 72,
+          "source_f0_hz": 530.203640699157,
+          "source_tuning_cents": 22.8516634880857,
+          "sample_seconds": 2.9719954648526077
+        },
+        {
+          "concert_midi": 73,
+          "source_f0_hz": 561.6485329210296,
+          "source_tuning_cents": 22.596899354831418,
+          "sample_seconds": 2.9319954648526076
+        },
+        {
+          "concert_midi": 74,
+          "source_f0_hz": 592.1372346129787,
+          "source_tuning_cents": 14.113662425514415,
+          "sample_seconds": 2.921995464852608
+        },
+        {
+          "concert_midi": 75,
+          "source_f0_hz": 628.6460562853207,
+          "source_tuning_cents": 17.693337530315798,
+          "sample_seconds": 2.8919954648526076
+        },
+        {
+          "concert_midi": 76,
+          "source_f0_hz": 667.1039299428087,
+          "source_tuning_cents": 20.48961988353933,
+          "sample_seconds": 3.2419954648526077
+        },
+        {
+          "concert_midi": 77,
+          "source_f0_hz": 707.4725353730043,
+          "source_tuning_cents": 22.20474250303279,
+          "sample_seconds": 3.231995464852608
+        },
+        {
+          "concert_midi": 78,
+          "source_f0_hz": 750.6137137703645,
+          "source_tuning_cents": 24.68054983830744,
+          "sample_seconds": 3.2919954648526075
+        },
+        {
+          "concert_midi": 79,
+          "source_f0_hz": 798.1343774344957,
+          "source_tuning_cents": 30.953770000228594,
+          "sample_seconds": 2.9119954648526076
+        },
+        {
+          "concert_midi": 80,
+          "source_f0_hz": 842.9047197183093,
+          "source_tuning_cents": 25.439244689203008,
+          "sample_seconds": 3.651995464852608
+        }
+      ]
+    },
+    {
+      "file": "AltoSax.Vib.mf.Db3B3.aiff",
+      "sha256": "0d76a7801c67a556d785c4684f9349e1fe9344bc1e4f53a1b4dc03a6fb19196e",
+      "notes": [
+        {
+          "concert_midi": 49,
+          "source_f0_hz": 139.48438886655987,
+          "source_tuning_cents": 11.120168588315561,
+          "sample_seconds": 3.751995464852608
+        },
+        {
+          "concert_midi": 50,
+          "source_f0_hz": 147.22010681129038,
+          "source_tuning_cents": 4.565439260462374,
+          "sample_seconds": 2.881995464852608
+        },
+        {
+          "concert_midi": 51,
+          "source_f0_hz": 155.47052185751198,
+          "source_tuning_cents": -1.0349533063573295,
+          "sample_seconds": 3.251995464852608
+        },
+        {
+          "concert_midi": 52,
+          "source_f0_hz": 164.74683655225178,
+          "source_tuning_cents": -0.7033128362265612,
+          "sample_seconds": 3.3119954648526075
+        },
+        {
+          "concert_midi": 53,
+          "source_f0_hz": 174.09377135380194,
+          "source_tuning_cents": -5.166723093888048,
+          "sample_seconds": 3.2919954648526075
+        },
+        {
+          "concert_midi": 54,
+          "source_f0_hz": 184.82728527020694,
+          "source_tuning_cents": -1.59092676996522,
+          "sample_seconds": 2.861995464852608
+        },
+        {
+          "concert_midi": 55,
+          "source_f0_hz": 196.15393270102032,
+          "source_tuning_cents": 1.379283953018127,
+          "sample_seconds": 3.171995464852608
+        },
+        {
+          "concert_midi": 56,
+          "source_f0_hz": 207.91545291545123,
+          "source_tuning_cents": 2.192156752614643,
+          "sample_seconds": 3.361995464852608
+        },
+        {
+          "concert_midi": 57,
+          "source_f0_hz": 221.1310734362508,
+          "source_tuning_cents": 8.877892553456373,
+          "sample_seconds": 3.091995464852608
+        },
+        {
+          "concert_midi": 58,
+          "source_f0_hz": 234.08492837172568,
+          "source_tuning_cents": 7.4342304050781935,
+          "sample_seconds": 3.2019954648526077
+        },
+        {
+          "concert_midi": 59,
+          "source_f0_hz": 248.5677755077091,
+          "source_tuning_cents": 11.362903378059281,
+          "sample_seconds": 3.0119954648526077
+        }
+      ]
+    }
+  ]
+}

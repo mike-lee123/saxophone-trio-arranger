@@ -1,0 +1,57 @@
+{
+  "source": "University of Iowa MIS / Michael Giles, November 1997",
+  "source_url": "https://theremin.music.uiowa.edu/MISaltosaxophone.html",
+  "kind": "actual recorded-note samples sequenced by computer; not a continuous human performance",
+  "settings": {
+    "mode": "enka",
+    "expression": 0.8,
+    "room": 0.12
+  },
+  "sample_count": 64,
+  "note_count": 229,
+  "stats": {
+    "mix": {
+      "seconds": 102.0,
+      "peak": 0.8600000143051147,
+      "rms": 0.1580326408147812,
+      "clipped_samples": 0
+    },
+    "alto_1": {
+      "peak": 0.5241501927375793,
+      "rms": 0.13046753406524658
+    },
+    "alto_2": {
+      "peak": 0.2892637848854065,
+      "rms": 0.07112462818622589
+    },
+    "alto_3": {
+      "peak": 0.28366780281066895,
+      "rms": 0.05538581684231758
+    }
+  },
+  "human_listening_review": false,
+  "status": "UNREVIEWED DRAFT",
+  "project_sha256": "8f0fa8b3dbeaf4ffe195bbf73a6fa14358a710cc3a2eac45026135e24814b571",
+  "acoustic_pitch_checks": [
+    {
+      "midi": 55,
+      "expected_hz": 195.99771799087463,
+      "measured_hz": 195.45101795752913,
+      "error_cents": -4.835710226143572
+    },
+    {
+      "midi": 60,
+      "expected_hz": 261.6255653005986,
+      "measured_hz": 261.3684596681125,
+      "error_cents": -1.7021611711552205
+    },
+    {
+      "midi": 64,
+      "expected_hz": 329.6275569128699,
+      "measured_hz": 329.3656965938183,
+      "error_cents": -1.3758608965718164
+    }
+  ],
+  "musicxml_sounding_events_exact_match": true,
+  "recording_bank_sha256": "3e76dccc7fef199f3add54a221b77c9e70dc59431d3926a011594b1f2e2ca6c4"
+}

@@ -1,0 +1,17 @@
+{
+  "sha256": "a5e09e3ef2c52fbeaec2a12285c0a9bf2fe00908c587db9f980cee389614a7f1",
+  "parts": [
+    {
+      "name": "complete-performance.zip.part000",
+      "sha256": "6fd36e9afdacae8a387ba27281b57bb57c219a6ea678095384cbf5492b4b69ce"
+    },
+    {
+      "name": "complete-performance.zip.part001",
+      "sha256": "b385003cc046699089162a20ce286e79111297d7285952fd56a910e15a4da7e2"
+    },
+    {
+      "name": "complete-performance.zip.part002",
+      "sha256": "7155905011cd87e008fb7b4ffb0840491524bce067426ace5efa01fec02ba871"
+    }
+  ]
+}

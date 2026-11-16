@@ -1,0 +1,2296 @@
+{
+  "title": "黃昏的故鄉",
+  "meter": "4/4",
+  "source_key": "C",
+  "tempo": 72,
+  "source_sha256": "75ad0c9460498440b5cdbb5effddb9d59de0175be34f9b160a33bd2da1f8994c",
+  "measures": [
+    {
+      "number": 1,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 1 列。開頭休止符與低音 5 的八度點。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 2,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 1 列。5 的附點與後方十六分音符組。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 3,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 1 列。高音 1 的上點、附點節奏。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 4,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 1 列。G7 從第 3 拍生效；末尾四個十六分音符。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 5,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 2 列。上方小字裝飾候選尚未納入；主線長音延續。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 6,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 2 列。反覆起點；低音 5，並有三段歌詞。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 7,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 2 列。1216 的十六分群與低音點。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 8,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 2 列。附點四分、八分，以及末尾 65。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 9,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 3 列。5321 十六分群，後方 2 延續三拍。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 10,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 3 列。末群為八分 3 + 十六分三連音 232，之後仍有四分 1。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 11,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 3 列。165 的減時線層數、6/5/3 的下方八度點。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 12,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 1,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 3 列。末尾 21 的附點八分與十六分節奏。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 13,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 4 列。中間十六分三連音 212，後半轉 C 和弦。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 14,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 4,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 4 列。F 和弦；0/1 與 4/5 八分群，6 延續兩拍。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 15,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 4 列。前三音低音點與 G7 在後半生效。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 16,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 4 列。033、35、565、3213 的不同減時線。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 17,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Dm",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 5 列。Dm 主線 2 長音；兩組上方小字裝飾未納入。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 18,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "Em7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "Am",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 5 列。Em7→Am，低音群及末尾附點與十六分音符。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 19,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "N.C.",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 5 列。第 3 拍起 N.C.，和聲聲部停奏。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 20,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 0,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "N.C.",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 5 列。N.C. 延續，末尾三連音 321 與 Coda 記號。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 21,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 6 列。長音 1 後的低音 565 三連音。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 22,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 6 列。Segno 所在段落；123 三連音。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 23,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 6 列。長音 5 後的 356 三連音。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 24,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 1,
+          "triplet": false,
+          "chord": "F",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/4",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 6 列。高音 1/2 的上點，附點及末尾 656。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 25,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 7 列。後兩組 656 與 532 為八分三連音。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 26,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 7 列。兩組三連音的低音 5/6；G7 在後半生效。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 27,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 7 列。反覆終點與小字裝飾；正式跳轉次序仍待確認。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 28,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 3,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 7 列。Coda 段落；低音 553 三連音。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 29,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "G7",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 2,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        },
+        {
+          "degree": 6,
+          "octave": -1,
+          "accidental": 0,
+          "duration": "1/2",
+          "dots": 0,
+          "triplet": true,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 8 列。低音 556 三連音，G7。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "number": 30,
+      "capacity": "4",
+      "events": [
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "2",
+          "dots": 0,
+          "triplet": false,
+          "chord": "C",
+          "tie": "start",
+          "uncertain": true
+        },
+        {
+          "degree": 1,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "stop",
+          "uncertain": true
+        },
+        {
+          "degree": 5,
+          "octave": 0,
+          "accidental": 0,
+          "duration": "1",
+          "dots": 0,
+          "triplet": false,
+          "chord": "",
+          "tie": "",
+          "uncertain": true
+        }
+      ],
+      "annotation": "AI 視讀初校：原圖第 8 列。Fine 與末音延長記號；此版固定拍長播放，不自動延長。 人工確認尚未完成。",
+      "review_hash": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    }
+  ],
+  "style": "enka",
+  "source_notes": "30 個印刷小節已完成 AI 視讀初校，全部仍待使用者人工確認。第 5、17、27 小節小字裝飾音未納入；反覆、Segno／Coda 與 Fine 演奏路線待確認。來源標示女聲 C、男聲 Eb，此案依需求採 Concert C。第19小節第3拍起至第20小節 N.C. 採主旋律獨奏。",
+  "performance_order": [],
+  "source_complete": false,
+  "structure_hash": "",
+  "structure_reviewer": "",
+  "structure_reviewed_at": ""
+}
